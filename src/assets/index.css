@@ -471,3 +471,26 @@ button {
   font-size: var(--tooltip-font-size, 12px);
   transition: opacity 0.3s ease-in-out;
 }
+
+.custom-chatbot-icon {
+  width: 65px !important;
+  height: 65px !important;
+  right: 22px !important;
+  bottom: 20px !important;
+  cursor: grab !important;
+}
+
+.custom-chatbot-icon img {
+  width: 65px !important;
+  height: 65px !important;
+}
+
+.custom-chatbot-icon svg {
+  fill: white !important;
+}
+
+a {
+  color: #fc9a3f !important;
+  font-weight: 500 !important;
+  text-decoration: underline !important;
+}
