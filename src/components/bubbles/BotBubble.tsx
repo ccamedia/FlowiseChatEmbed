@@ -152,7 +152,10 @@ export const BotBubble = (props: Props) => {
     if (botMessageEl) {
       botMessageEl.innerHTML = Marked.parse(props.message.message);
       botMessageEl.querySelectorAll('a').forEach((link) => {
-        link.target = '_blank';
+        link.target = 'self';
+        // set color to the link to orange //
+        link.style.color = '#fc9a3f';
+
       });
       if (props.fileAnnotations && props.fileAnnotations.length) {
         for (const annotations of props.fileAnnotations) {
