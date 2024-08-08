@@ -153,7 +153,6 @@ export const BotBubble = (props: Props) => {
       botMessageEl.innerHTML = Marked.parse(props.message.message);
       botMessageEl.querySelectorAll('a').forEach((link) => {
         link.target = 'self';
-        // set color to the link to orange //
         link.style.color = '#fc9a3f';
 
       });
