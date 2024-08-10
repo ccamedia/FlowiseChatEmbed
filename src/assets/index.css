@@ -495,7 +495,25 @@ a {
   text-decoration: underline !important;
 }
 
-body, p, h1, h2, h3, h4, h5, h6, li, a, span, div {
-  color: #ffffff !important;
+:where(h1, h2, h3, h4, h5, h6):not(:where([class~=not-prose],[class~=not-prose] *)) {
+    color: white !important;
+}
+
+ul, ol, li {
+    color: white !important;
+}
+
+strong, b {
+    color: white !important;
+}
+
+a {
+    color: white !important;
+    font-weight: 500 !important;
+    text-decoration: underline !important;
+}
+
+.prose :where(p):not(:where([class~=not-prose],[class~=not-prose] *)) {
+    color: white !important;
 }
 
