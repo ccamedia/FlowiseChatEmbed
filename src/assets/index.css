@@ -500,3 +500,7 @@ a {
 color:#ffffff !important;
 font-weight:600
 }
+
+.prose {
+  color: #fff !important;
+}
