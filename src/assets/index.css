@@ -495,23 +495,7 @@ a {
   text-decoration: underline !important;
 }
 
-/* Farben der aufgezählten Elemente auf Weiß setzen */
-.markdownanswer li {
-  color: #fff !important;
+body, p, h1, h2, h3, h4, h5, h6, li, a, span, div {
+  color: #ffffff !important;
 }
 
-/* Farben der Überschriften auf Weiß setzen */
-.markdownanswer h1,
-.markdownanswer h2,
-.markdownanswer h3,
-.markdownanswer h4,
-.markdownanswer h5,
-.markdownanswer h6 {
-  color: #fff !important;
-}
-
-/* Farben der hervorgehobenen Texte auf Weiß setzen */
-.markdownanswer strong,
-.markdownanswer em {
-  color: #fff !important;
-}
