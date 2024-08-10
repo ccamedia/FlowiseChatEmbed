@@ -495,47 +495,9 @@ a {
   text-decoration: underline !important;
 }
 
-:where(h1, h2, h3, h4, h5, h6):not(:where([class~=not-prose],[class~=not-prose] *)) {
-    color: white !important;
-}
 
-ul, ol, li {
-    color: white !important;
-}
-
-strong, b {
-    color: white !important;
-}
-
-a {
-    color: white !important;
-    font-weight: 500 !important;
-    text-decoration: underline !important;
-}
-
-.prose :where(p):not(:where([class~=not-prose],[class~=not-prose] *)) {
-    color: white !important;
-}
-
-.prose :where(strong):not(:where([class~=not-prose],[class~=not-prose] *)) {
-    color: white !important;
-    font-weight: 600 !important;
-}
-
-
-.prose :where(ul, ol, li):not(:where([class~=not-prose],[class~=not-prose] *)) {
-  color: #ffffff !important; /* Listenpunkte und Auflistungstextfarbe */
-}
-
-.prose :where(strong):not(:where([class~=not-prose],[class~=not-prose] *)) {
-    color: white;
-    font-weight: 600;
-}
-
-.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
-    color: #ffffff !important;
-}
-
-.prose ul, .prose ol, .prose li {
-    color: #ffffff !important;
+.prose :where(strong):not(:where([class~=not-prose],
+[class~=not-prose] *)) {
+color:#ffffff;
+font-weight:600
 }
