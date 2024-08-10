@@ -495,9 +495,8 @@ a {
   text-decoration: underline !important;
 }
 
-
 .prose :where(strong):not(:where([class~=not-prose],
 [class~=not-prose] *)) {
-color:#ffffff;
+color:#ffffff !important;
 font-weight:600
 }
