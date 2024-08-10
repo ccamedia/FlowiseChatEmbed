@@ -527,3 +527,15 @@ a {
   color: #ffffff !important; /* Listenpunkte und Auflistungstextfarbe */
 }
 
+.prose :where(strong):not(:where([class~=not-prose],[class~=not-prose] *)) {
+    color: white;
+    font-weight: 600;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    color: #ffffff !important;
+}
+
+.prose ul, .prose ol, .prose li {
+    color: #ffffff !important;
+}
